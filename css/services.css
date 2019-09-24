@@ -1,0 +1,272 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+html {
+  margin: 0 auto;
+  width: 90%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  margin: 40px 0px 40px 0px;
+}
+
+a {
+  color: 	#A8A8A8;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.services-header-img {
+  width: 100%;
+}
+
+#services {
+    margin-bottom: 2.4%;
+}
+
+h1 {
+  font-size: 42px;
+  margin-top: 40px;
+}
+
+p {
+  font-size: 24px;
+  color: #383838;
+  line-height: 1.2;
+}
+
+#thin-hr {
+  height: 2px;
+  background-color: black;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+.top-row {
+  margin: 2.6% 0px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.digital-design {
+  padding: 30px;
+  background-color: #E8E8E8;
+  width: 48.8%;
+  border: 1.5px solid black;
+}
+
+.ux-ui {
+  padding: 30px;
+  background-color: #E8E8E8;
+  width: 48.8%;
+  border: 1.5px solid black;
+}
+
+.middle-row {
+  margin: 2.6% 0px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.digital-marketing {
+  padding: 30px;
+  background-color: #E8E8E8;
+  width: 48.8%;
+  border: 1.5px solid black;
+}
+
+.web-development {
+  padding: 30px;
+  background-color: #E8E8E8;
+  width: 48.8%;
+  border: 1.5px solid black;
+}
+
+.bottom-row {
+  margin: 2.6% 0px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.ios-development {
+  padding: 30px;
+  background-color: #E8E8E8;
+  width: 48.8%;
+  border: 1.5px solid black;
+}
+
+.android-development {
+  padding: 30px;
+  background-color: #E8E8E8;
+  width: 48.8%;
+  border: 1.5px solid black;
+}
+
+.button {
+  margin-top: 30px;
+  background-color: white;
+  border: 1.5px solid black;
+  border-radius: 5px;
+  width: 200px;
+  height: 40px;  
+}
+
+#thick-hr {
+  height: 4px;
+  background-color: black;
+}
+
+.additional-info {
+  margin-top: 40px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.facts {
+  width: 625px;
+}
+
+.list {
+  margin-left: 25px;
+  font-size: 24px;
+  line-height: 2;
+}
+
+.services-info-img {
+  width: 625px;
+}
+
+.copyright {
+  text-align: center;
+  margin: 100px 0px 50px 0px;
+}
+
+/* Media query for tablet mock up */
+@media (max-width: 800px) {
+    html {
+        width: 92%;
+    }
+    h1 {
+        font-size: 33px;
+    }
+    h2 {
+      font-size: 22px;
+    }
+    #getstarted {
+        width: 45%;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    nav {
+        display: flex;
+        align-items: center;
+        flex-flow: row wrap;
+    }
+    .logo {
+        order: 0;
+        text-align: center;
+        margin: 0% 50%;
+    }   
+    p {
+        font-size: 18px;
+    }
+    li {
+        font-size: 20px;
+    }
+    footer {
+        text-align: center;
+        margin-bottom: 60px;
+    }
+    .services {
+        order: 1;
+    }
+    .product {
+        order: 2;
+    }   
+    .vision {
+        order: 3;
+    }
+    .features {
+        order: 4;
+    }
+    .contact {
+        order: 5;
+    }
+    .about {
+        order: 6;
+    }
+}
